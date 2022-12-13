@@ -1,15 +1,33 @@
 .header {
-	top:20px;
+	top:20px; text-align: center;background-color: rgba(0, 0, 0, 0.8);
+}
+body { background: url(background.jpg); color: #fff;background-size: 100%;}
+.main {
+	padding-top:100px; text-align: center;background-color: rgba(0, 0, 0, 0.5);
 }
 
-.main {
-	padding-top:100px;
+.footer {
+	top:20px; background-color: rgb(161, 161, 161); color:rgb(7, 7, 7);
+    display: flex;  
+    align-items: flex-end;
 }
 
 .posLeft {
 	margin-left:-66%;
 }
+div { text-align: center }
 
 .posCenter {
 	margin-left:33%;
 }
+a {
+    color: #2305cc; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:visited {
+    color: #800080; /* Цвет посещённой ссылки */
+   } 
+   a:hover {
+    color: #080808; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
