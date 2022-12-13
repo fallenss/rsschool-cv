@@ -1,15 +1,14 @@
 .header {
 	top:20px; text-align: center;background-color: rgba(0, 0, 0, 0.8);
 }
-body { background: url(background.jpg); color: #fff;background-size: 100%;}
+body { background: url(background.jpg); color: #fff;background-size: cover;}
 .main {
-	padding-top:100px; text-align: center;background-color: rgba(0, 0, 0, 0.5);
+	padding-top:100px; text-align: center;background-color: rgba(0, 0, 0, 0.5); font-size: 18pt;
 }
 
 .footer {
-	top:20px; background-color: rgb(161, 161, 161); color:rgb(7, 7, 7);
-    display: flex;  
-    align-items: flex-end;
+	top:20px; background-color: rgb(161, 161, 161); color:rgb(7, 7, 7); font-size: 16pt;
+
 }
 
 .posLeft {
@@ -21,14 +20,14 @@ div { text-align: center }
 	margin-left:33%;
 }
 a {
-    color: #2305cc; /* Цвет обычной ссылки */ 
+    color: #ff0000; /* Цвет обычной ссылки */ 
     text-decoration: none; /* Убираем подчеркивание у ссылок */
    }
    a:visited {
-    color: #800080; /* Цвет посещённой ссылки */
+    color: #ff6600; /* Цвет посещённой ссылки */
    } 
    a:hover {
-    color: #080808; /* Цвет ссылки при наведении на нее курсора мыши */  
+    color: #850404; /* Цвет ссылки при наведении на нее курсора мыши */  
     text-decoration: underline; /* Добавляем подчеркивание */
    }
    IMG.fig {
